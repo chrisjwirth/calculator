@@ -1,0 +1,35 @@
+body, .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+
+.container {
+  border: 1px solid black;
+  padding: 0;
+  min-width: 25%;
+}
+
+.row {
+  display: flex;
+  align-content: stretch;
+  min-width: 100%;
+}
+
+.result {
+  min-width: 100%;
+  text-align: end;
+  box-sizing: border-box;
+  padding-right: 2px;
+}
+
+.btn {
+  min-width: 25%;
+  border: 1px solid white;
+}
+
+.clear, .zero {
+  min-width: 75%;
+}
