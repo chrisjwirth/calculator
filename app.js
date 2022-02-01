@@ -64,3 +64,12 @@ numbers.forEach(number => {
 equals.addEventListener('click', () => {
   result.textContent = calc[operator](num1, num2).toString();
 });
+
+// TODO - Store numbers larger than one digit
+// TODO - Allow user to string together several operations
+// TODO - Only evaluate a single pair of numbers at a time
+// TODO - Round answers with long decimals
+// TODO - Display message when attempting to divide by zero
+// TODO - Support floating point numbers (disable . button if one is present)
+// TODO - Add backspace button
+// TODO - Add keyboard support
