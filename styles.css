@@ -28,14 +28,14 @@ footer {
 }
 
 a {
-  text-decoration-color: gray;
+  text-decoration-color: lightsteelblue;
   text-underline-position: under;
   color: gray;
   font-weight: 400;
 }
 
 a:hover {
-  text-decoration-color: lightgray;
+  text-decoration-color: steelblue;
 }
 
 h1 {
@@ -110,15 +110,15 @@ body, .container {
 }
 
 .operator, .equals {
-  background-color: orange;
+  background-color: lightsteelblue;
 }
 
 .operator:active, .equals:active {
-  background-color: darkorange;
+  background-color: steelblue;
 }
 
 .operatorClicked {
-  background-color: darkorange;
+  background-color: steelblue;
 }
 
 .clear {
