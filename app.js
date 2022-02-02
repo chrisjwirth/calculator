@@ -36,9 +36,9 @@ clear.addEventListener('click', () => {
 // Operation
 function processOperator(operator) {
   operators.forEach(operator => {
-    operator.classList.remove('btnActive');
+    operator.classList.remove('operatorClicked');
   });
-  operator.classList.add('btnActive');
+  operator.classList.add('operatorClicked');
   decimal.disabled = false;
   if (operationInProgress) {
     calculate();
@@ -81,7 +81,7 @@ numbers.forEach(number => {
 // Calculate Result
 function calculate() {
   operators.forEach(operator => {
-    operator.classList.remove('btnActive');
+    operator.classList.remove('operatorClicked');
   });
   decimal.disabled = false;
   num2 = parseFloat(result.textContent);
