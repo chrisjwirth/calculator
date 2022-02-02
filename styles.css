@@ -30,6 +30,20 @@ body, .container {
   border: 1px solid white;
 }
 
-.clear, .zero {
+.btn:active {
+  background-color: darkgray;
+  color: white;
+}
+
+.btnActive {
+  background-color: slategray;
+  color: white;
+}
+
+.clear {
   min-width: 75%;
+}
+
+.zero {
+  min-width: 50%;
 }
