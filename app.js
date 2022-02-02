@@ -80,6 +80,9 @@ numbers.forEach(number => {
 
 // Calculate Result
 function calculate() {
+  if (!operationInProgress) {
+    return;
+  }
   operators.forEach(operator => {
     operator.classList.remove('operatorClicked');
   });
